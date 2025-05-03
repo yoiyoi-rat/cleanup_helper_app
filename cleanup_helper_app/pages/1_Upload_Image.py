@@ -16,9 +16,16 @@ if "mode" not in st.session_state:
 if "uploaded_image" not in st.session_state:
     st.session_state.uploaded_image = None
 
-# 軽く or がっつりの選択
-mode = st.radio("片付けモードを選んでください", ["軽く", "がっつり"], horizontal=True)
-st.session_state.mode = mode
+# 表示用 → 内部用マッピング
+mode_map = {"軽く": "light", "がっつり": "hard"}
+
+
+# 表示と選択
+selected = st.radio("片付けモードを選んでください", ["軽く", "がっつり"], horizontal=True)
+st.session_state.mode = mode_map[selected]
+
+mode = st.session_state.mode  # "light" または "hard"
+
 
 # 画像アップロード or 撮影（スマホ対応）
 uploaded_file = st.file_uploader("部屋の画像をアップロード", type=["jpg", "jpeg", "png"])

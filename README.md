@@ -83,15 +83,15 @@ cleanup_helper_app
 ステップ	内容
 ✅9	cost_loader.py：load_cost_table(csv_path) 実装（今ある objects.csv を使う）
 ✅10	test_cost_loader.py：名前とコストの対応テスト
-🔜11	optimizer.py：solve_cleanup_plan(...) の構造を決めてモックで返す
-12	test_optimizer.py：ダミーオブジェクトで最適化ロジックの構造チェック
+✅🔜11	optimizer.py：solve_cleanup_plan(...) の構造を決めてモックで返す
+✅12	test_optimizer.py：ダミーオブジェクトで最適化ロジックの構造チェック
 
 🧼 フェーズ4：Streamlitによる実行とナビゲーションUI
 ステップ	内容
-13	3_Optimization.py：最適化を呼び出し、結果を session_state に保存
-14	4_Guided_Cleanup.py：順番に1つずつ片付けをガイド（BB表示つき）
-15	image_utils.py：draw_bboxes() 実装し、現在の物体を強調表示
-16	プログレスバー、完了ボタン、戻るボタンの導入
+✅13	3_Optimization.py：最適化を呼び出し、結果を session_state に保存
+✅14	4_Guided_Cleanup.py：順番に1つずつ片付けをガイド（BB表示つき）
+✅15	image_utils.py：draw_bboxes() 実装し、現在の物体を強調表示
+✅16	プログレスバー、完了ボタン、戻るボタンの導入
 
 🚀 フェーズ5：デプロイと仕上げ
 ステップ	内容
