@@ -1,0 +1,602 @@
+id,name,jp_name,likely_in_room_flag,furniture_flag,weight_cost
+0,Accordion,アコーディオン,1,0,3
+1,Adhesive tape,粘着テープ,1,0,1
+2,Aircraft,航空機,0,0,
+3,Airplane,飛行機,0,0,
+4,Alarm clock,目覚まし時計,1,0,1
+5,Alpaca,アルパカ,0,0,
+6,Ambulance,救急車,0,0,
+7,Animal,動物,0,0,
+8,Ant,アリ,0,0,
+9,Antelope,アンテロープ,0,0,
+10,Apple,りんご,1,0,1
+11,Armadillo,アルマジロ,0,0,
+12,Artichoke,アーティチョーク,1,0,1
+13,Auto part,自動車部品,0,0,
+14,Axe,斧,0,0,
+15,Backpack,バックパック,1,0,2
+16,Bagel,ベーグル,1,0,1
+17,Baked goods,焼き菓子,1,0,2
+18,Balance beam,平均台,0,0,
+19,Ball,ボール,1,0,1
+20,Balloon,バルーン,1,0,1
+21,Banana,バナナ,1,0,1
+22,Band-aid,バンドエイド,1,0,1
+23,Banjo,バンジョー,1,0,5
+24,Barge,バージ,0,0,
+25,Barrel,バレル,0,0,
+26,Baseball bat,野球バット,1,0,2
+27,Baseball glove,野球グローブ,1,0,2
+28,Bat (Animal),コウモリ（動物）,0,0,
+29,Bathroom accessory,バスルームアクセサリー,1,0,25
+30,Bathroom cabinet,バスルームキャビネット,1,1,40
+31,Bathtub,バスタブ,1,1,100
+32,Beaker,ビーカー,1,0,1
+33,Bear,クマ,0,0,
+34,Bed,ベッド,1,0,100
+35,Bee,蜂,0,0,
+36,Beehive,蜂の巣,0,0,
+37,Beer,ビール,1,0,1
+38,Beetle,甲虫,0,0,
+39,Bell pepper,ピーマン,1,0,1
+40,Belt,ベルト,1,0,1
+41,Bench,ベンチ,1,1,15
+42,Bicycle,自転車,0,0,
+43,Bicycle helmet,自転車ヘルメット,1,0,2
+44,Bicycle wheel,自転車の車輪,0,0,
+45,Bidet,ビデ,1,1,80
+46,Billboard,看板,0,0,
+47,Billiard table,ビリヤード台,1,1,2
+48,Binoculars,双眼鏡,1,0,1
+49,Bird,鳥,0,0,
+50,Blender,ブレンダー,1,0,5
+51,Blue jay,アオカケス,0,0,
+52,Boat,ボート,0,0,
+53,Bomb,爆弾,0,0,
+54,Book,本,1,0,2
+55,Bookcase,本棚,1,1,10
+56,Boot,ブート,1,0,2
+57,Bottle,ボトル,1,0,2
+58,Bottle opener,栓抜き,1,0,1
+59,Bow and arrow,弓矢,0,0,
+60,Bowl,ボウル,1,0,1
+61,Bowling equipment,ボウリング用品,1,0,10
+62,Box,箱,1,0,5
+63,Boy,男の子,0,0,
+64,Brassiere,ブラジャー,1,0,1
+65,Bread,パン,1,0,1
+66,Briefcase,ブリーフケース,1,0,1
+67,Broccoli,ブロッコリー,1,0,1
+68,Bronze sculpture,ブロンズ彫刻,1,0,10
+69,Brown bear,ヒグマ,0,0,
+70,Building,建物,0,0,
+71,Bull,ブル,0,0,
+72,Burrito,ブリトー,1,0,1
+73,Bus,バス,0,0,
+74,Bust,バスト,1,0,20
+75,Butterfly,蝶,0,0,
+76,Cabbage,キャベツ,1,0,1
+77,Cabinetry,キャビネット,1,1,100
+78,Cake,ケーキ,1,0,1
+79,Cake stand,ケーキスタンド,1,0,1
+80,Calculator,電卓,1,0,1
+81,Camel,キャメル,0,0,
+82,Camera,カメラ,1,0,1
+83,Can opener,缶切り,1,0,1
+84,Canary,カナリア,0,0,
+85,Candle,キャンドル,1,0,1
+86,Candy,あめ,1,0,1
+87,Cannon,大砲,0,0,
+88,Canoe,カヌー,0,0,
+89,Cantaloupe,マスクメロン,1,0,1
+90,Car,車,0,0,
+91,Carnivore,肉食動物,0,0,
+92,Carrot,ニンジン,1,0,1
+93,Cart,カート,1,0,1
+94,Cassette deck,カセットデッキ,1,0,10
+95,Castle,城,0,0,
+96,Cat,猫,0,0,
+97,Cat furniture,猫の家具,1,1,20
+98,Caterpillar,キャタピラー,0,0,
+99,Cattle,牛,0,0,
+100,Ceiling fan,シーリングファン,1,1,8
+101,Cello,チェロ,1,0,15
+102,Centipede,ムカデ,0,0,
+103,Chainsaw,チェーンソー,0,0,
+104,Chair,椅子,1,1,3
+105,Cheese,チーズ,1,0,1
+106,Cheetah,チーター,0,0,
+107,Chest of drawers,たんす,1,1,20
+108,Chicken,チキン,0,0,
+109,Chime,チャイム,1,0,1
+110,Chisel,ノミ,1,0,1
+111,Chopsticks,箸,1,0,1
+112,Christmas tree,クリスマスツリー,1,0,5
+113,Clock,クロック,1,0,1
+114,Closet,クローゼット,1,1,100
+115,Clothing,衣類,1,0,1
+116,Coat,コート,1,0,3
+117,Cocktail,カクテル,1,0,1
+118,Cocktail shaker,カクテルシェーカー,1,0,1
+119,Coconut,ココナッツ,1,0,1
+120,Coffee,コーヒー,1,0,1
+121,Coffee cup,コーヒーカップ,1,0,1
+122,Coffee table,コー​​ヒーテーブル,1,1,1
+123,Coffeemaker,コーヒーメーカー,1,0,10
+124,Coin,コイン,1,0,1
+125,Common fig,一般的なイチジク,1,0,1
+126,Common sunflower,ヒマワリ,1,0,1
+127,Computer keyboard,コンピューターのキーボード,1,0,1
+128,Computer monitor,コンピューターモニター,1,0,10
+129,Computer mouse,コンピュータのマウス,1,0,1
+130,Container,容器,1,0,1
+131,Convenience store,コンビニエンスストア,0,0,
+132,Cookie,クッキー,1,0,1
+133,Cooking spray,クッキングスプレー,1,0,1
+134,Corded phone,コード付き電話,1,0,3
+135,Cosmetics,化粧品,1,0,1
+136,Couch,ソファー,1,1,100
+137,Countertop,カウンタートップ,1,1,100
+138,Cowboy hat,カウボーイハット,1,0,1
+139,Crab,カニ,0,0,
+140,Cream,クリーム,1,0,1
+141,Cricket ball,クリケットボール,1,0,1
+142,Crocodile,クロコダイル,0,0,
+143,Croissant,クロワッサン,1,0,1
+144,Crown,クラウン,1,0,2
+145,Crutch,松葉杖,1,0,10
+146,Cucumber,キュウリ,1,0,1
+147,Cupboard,戸棚,1,1,100
+148,Curtain,カーテン,1,1,5
+149,Cutting board,まな板,1,0,1
+150,Dagger,短剣,0,0,
+151,Dairy Product,乳製品,1,0,1
+152,Deer,鹿,0,0,
+153,Desk,机,1,1,100
+154,Dessert,デザート,1,0,1
+155,Diaper,おむつ,1,0,1
+156,Dice,サイコロ,1,0,1
+157,Digital clock,デジタル時計,1,0,1
+158,Dinosaur,恐竜,0,0,
+159,Dishwasher,食器洗い機,1,1,30
+160,Dog,犬,0,0,
+161,Dog bed,犬用ベッド,1,1,10
+162,Doll,人形,1,0,1
+163,Dolphin,イルカ,0,0,
+164,Door,ドア,1,1,100
+165,Door handle,ドアハンドル,1,1,100
+166,Doughnut,ドーナツ,1,0,1
+167,Dragonfly,トンボ,0,0,
+168,Drawer,引き出し,1,1,100
+169,Dress,ドレス,1,0,5
+170,Drill (Tool),ドリル（工具）,1,0,3
+171,Drink,飲む,1,0,1
+172,Drinking straw,ストロー,1,0,1
+173,Drum,ドラム,1,0,15
+174,Duck,アヒル,0,0,
+175,Dumbbell,ダンベル,1,0,15
+176,Eagle,イーグル,0,0,
+177,Earrings,イヤリング,1,0,1
+178,Egg (Food),卵（食品）,1,0,1
+179,Elephant,象,0,0,
+180,Envelope,封筒,1,0,1
+181,Eraser,消しゴム,1,0,1
+182,Face powder,フェイスパウダー,1,0,1
+183,Facial tissue holder,ティッシュホルダー,1,0,1
+184,Falcon,ファルコン,0,0,
+185,Fashion accessory,ファッションアクセサリー,1,0,1
+186,Fast food,ファーストフード,1,0,1
+187,Fax,ファックス,1,1,100
+188,Fedora,フェドーラ,1,0,1
+189,Filing cabinet,ファイリングキャビネット,1,1,100
+190,Fire hydrant,消火栓,1,1,10
+191,Fireplace,暖炉,1,1,100
+192,Fish,魚,0,0,
+193,Flag,フラグ,1,0,1
+194,Flashlight,懐中電灯,1,0,1
+195,Flower,花,1,0,1
+196,Flowerpot,植木鉢,1,0,1
+197,Flute,フルート,1,0,2
+198,Flying disc,フライングディスク,1,0,1
+199,Food,食べ物,1,0,1
+200,Food processor,フードプロセッサー,1,0,5
+201,Football,フットボール,1,0,1
+202,Football helmet,フットボール用ヘルメット,1,0,3
+203,Footwear,履物,1,0,1
+204,Fork,フォーク,1,0,1
+205,Fountain,噴水,0,0,
+206,Fox,キツネ,0,0,
+207,French fries,フライドポテト,1,0,1
+208,French horn,フレンチホルン,1,0,5
+209,Frog,蛙,0,0,
+210,Fruit,フルーツ,1,0,1
+211,Frying pan,フライパン,1,0,2
+212,Furniture,家具,1,1,100
+213,Garden Asparagus,ガーデンアスパラガス,1,0,1
+214,Gas stove,ガスコンロ,1,1,100
+215,Giraffe,キリン,0,0,
+216,Girl,女の子,0,0,
+217,Glasses,眼鏡,1,0,1
+218,Glove,グローブ,1,0,2
+219,Goat,ヤギ,0,0,
+220,Goggles,ゴーグル,1,0,1
+221,Goldfish,金魚,0,0,
+222,Golf ball,ゴルフボール,1,0,1
+223,Golf cart,ゴルフカート,0,0,
+224,Gondola,ゴンドラ,0,0,
+225,Goose,ガチョウ,0,0,
+226,Grape,グレープ,1,0,1
+227,Grapefruit,グレープフルーツ,1,0,1
+228,Grinder,グラインダー,1,0,2
+229,Guacamole,ワカモレ,1,0,1
+230,Guitar,ギター,1,0,5
+231,Hair dryer,ヘアドライヤー,1,0,2
+232,Hair spray,ヘアスプレー,1,0,1
+233,Hamburger,ハンバーガー,1,0,1
+234,Hammer,ハンマー,1,0,3
+235,Hamster,ハムスター,0,0,
+236,Hand dryer,ハンドドライヤー,1,0,2
+237,Handbag,ハンドバッグ,1,0,2
+238,Handgun,ハンドガン,1,0,5
+239,Harbor seal,ゴマフアザラシ,0,0,
+240,Harmonica,ハーモニカ,1,0,1
+241,Harp,ハープ,1,0,1
+242,Harpsichord,チェンバロ,1,0,1
+243,Hat,帽子,1,0,1
+244,Headphones,ヘッドフォン,1,0,1
+245,Heater,ヒータ,1,0,5
+246,Hedgehog,ハリネズミ,0,0,
+247,Helicopter,ヘリコプター,0,0,
+248,Helmet,ヘルメット,1,0,1
+249,High heels,ハイヒール,1,0,1
+250,Hiking equipment,ハイキング用品,1,0,5
+251,Hippopotamus,カバ,0,0,
+252,Home appliance,家電製品,1,0,10
+253,Honeycomb,ハニカム,0,0,
+254,Horizontal bar,横棒,0,0,
+255,Horse,馬,0,0,
+256,Hot dog,ホットドッグ,1,0,1
+257,House,家,0,0,
+258,Houseplant,観葉植物,1,0,5
+259,Human arm,人間の腕,0,0,
+260,Human beard,人間のひげ,0,0,
+261,Human body,人体,0,0,
+262,Human ear,人間の耳,0,0,
+263,Human eye,人間の目,0,0,
+264,Human face,人間の顔,0,0,
+265,Human foot,人間の足,0,0,
+266,Human hair,人毛,0,0,
+267,Human hand,人間の手,0,0,
+268,Human head,人間の頭,0,0,
+269,Human leg,人間の脚,0,0,
+270,Human mouth,人間の口,0,0,
+271,Human nose,人間の鼻,0,0,
+272,Humidifier,加湿器,1,0,10
+273,Ice cream,アイスクリーム,1,0,1
+274,Indoor rower,屋内漕ぎ手,1,1,20
+275,Infant bed,幼児用ベッド,1,1,20
+276,Insect,昆虫,0,0,
+277,Invertebrate,無脊椎動物,0,0,
+278,Ipod,iPod,1,0,1
+279,Isopod,等脚類,0,0,
+280,Jacket,ジャケット,1,0,1
+281,Jacuzzi,ジャグジー,1,1,100
+282,Jaguar (Animal),ジャガー (動物),0,0,
+283,Jeans,ジーンズ,1,0,1
+284,Jellyfish,クラゲ,0,0,
+285,Jet ski,ジェットスキー,0,0,
+286,Jug,水差し,1,0,2
+287,Juice,ジュース,1,0,1
+288,Kangaroo,カンガルー,0,0,
+289,Kettle,ケトル,1,0,2
+290,Kitchen & dining room table,キッチン＆ダイニングルームのテーブル,1,1,100
+291,Kitchen appliance,キッチン家電,1,0,10
+292,Kitchen knife,包丁,1,0,1
+293,Kitchen utensil,キッチン用品,1,0,1
+294,Kitchenware,キッチン用品,1,0,1
+295,Kite,凧,1,0,1
+296,Knife,ナイフ,1,0,1
+297,Koala,コアラ,0,0,
+298,Ladder,ラダー,1,1,20
+299,Ladle,柄杓,1,0,1
+300,Ladybug,てんとう虫,0,0,
+301,Lamp,ランプ,1,0,1
+302,Land vehicle,陸上車両,0,0,
+303,Lantern,ランタン,1,0,1
+304,Laptop,ラップトップ,1,0,5
+305,Lavender (Plant),ラベンダー（植物）,1,0,1
+306,Lemon,レモン,1,0,1
+307,Leopard,ヒョウ,0,0,
+308,Light bulb,電球,1,0,1
+309,Light switch,ライトスイッチ,1,1,1
+310,Lighthouse,灯台,0,0,
+311,Lily,リリー,1,0,1
+312,Limousine,リムジン,0,0,
+313,Lion,ライオン,0,0,
+314,Lipstick,口紅,1,0,1
+315,Lizard,トカゲ,0,0,
+316,Lobster,ロブスター,0,0,
+317,Loveseat,二人掛け,1,1,100
+318,Luggage and bags,荷物とバッグ,1,0,10
+319,Lynx,オオヤマネコ,0,0,
+320,Magpie,カササギ,0,0,
+321,Mammal,哺乳類,0,0,
+322,Man,男,0,0,
+323,Mango,マンゴー,1,0,1
+324,Maple,メープル,0,0,
+325,Maracas,マラカス,1,0,1
+326,Marine invertebrates,海洋無脊椎動物,0,0,
+327,Marine mammal,海洋哺乳類,0,0,
+328,Measuring cup,計量カップ,1,0,1
+329,Mechanical fan,メカニカルファン,1,0,10
+330,Medical equipment,医療機器,1,0,5
+331,Microphone,マイクロフォン,1,0,2
+332,Microwave oven,電子レンジ,1,1,10
+333,Milk,牛乳,1,0,1
+334,Miniskirt,ミニスカート,1,0,1
+335,Mirror,鏡,1,1,10
+336,Missile,ミサイル,0,0,
+337,Mixer,ミキサー,1,0,5
+338,Mixing bowl,ミキシングボウル,1,0,1
+339,Mobile phone,携帯電話,1,0,1
+340,Monkey,猿,0,0,
+341,Moths and butterflies,蛾と蝶,0,0,
+342,Motorcycle,オートバイ,0,0,
+343,Mouse,ねずみ,0,0,
+344,Muffin,マフィン,1,0,1
+345,Mug,マグ,1,0,1
+346,Mule,ラバ,0,0,
+347,Mushroom,キノコ,1,0,1
+348,Musical instrument,楽器,1,0,5
+349,Musical keyboard,音楽キーボード,1,0,10
+350,Nail (Construction),釘（建設）,1,0,1
+351,Necklace,ネックレス,1,0,1
+352,Nightstand,ナイトスタンド,1,1,10
+353,Oboe,オーボエ,1,0,5
+354,Office building,オフィスビル,0,0,
+355,Office supplies,事務用品,1,0,1
+356,Orange,オレンジ,1,0,1
+357,Organ (Musical Instrument),オルガン（楽器）,1,1,100
+358,Ostrich,ダチョウ,0,0,
+359,Otter,カワウソ,0,0,
+360,Oven,オーブン,1,1,100
+361,Owl,フクロウ,0,0,
+362,Oyster,カキ,0,0,
+363,Paddle,パドル,1,0,5
+364,Palm tree,ヤシの木,0,0,
+365,Pancake,パンケーキ,1,0,1
+366,Panda,パンダ,0,0,
+367,Paper cutter,ペーパーカッター,1,0,1
+368,Paper towel,ペーパータオル,1,0,1
+369,Parachute,パラシュート,0,0,
+370,Parking meter,パーキングメーター,0,0,
+371,Parrot,オウム,0,0,
+372,Pasta,パスタ,1,0,1
+373,Pastry,ペストリー,1,0,1
+374,Peach,桃,1,0,1
+375,Pear,梨,1,0,1
+376,Pen,ペン,1,0,1
+377,Pencil case,筆箱,1,0,1
+378,Pencil sharpener,鉛筆削り,1,0,2
+379,Penguin,ペンギン,0,0,
+380,Perfume,香水,1,0,1
+381,Person,人,0,0,
+382,Personal care,パーソナルケア,1,0,1
+383,Personal flotation device,個人用浮力装置,0,0,
+384,Piano,ピアノ,1,1,100
+385,Picnic basket,ピクニックバスケット,1,0,1
+386,Picture frame,額縁,1,0,1
+387,Pig,豚,0,0,
+388,Pillow,枕,1,1,1
+389,Pineapple,パイナップル,1,0,1
+390,Pitcher (Container),ピッチャー（容器）,1,0,1
+391,Pizza,ピザ,1,0,1
+392,Pizza cutter,ピザカッター,1,0,1
+393,Plant,植物,1,0,1
+394,Plastic bag,ビニール袋,1,0,1
+395,Plate,皿,1,0,1
+396,Platter,大皿,1,0,1
+397,Plumbing fixture,配管器具,1,1,5
+398,Polar bear,シロクマ,0,0,
+399,Pomegranate,ザクロ,1,0,1
+400,Popcorn,ポップコーン,1,0,1
+401,Porch,ポーチ,0,0,
+402,Porcupine,ヤマアラシ,0,0,
+403,Poster,ポスター,1,0,1
+404,Potato,じゃがいも,1,0,1
+405,Power plugs and sockets,電源プラグとソケット,1,0,1
+406,Pressure cooker,圧力鍋,1,0,1
+407,Pretzel,プレッツェル,1,0,1
+408,Printer,プリンター,1,0,10
+409,Pumpkin,パンプキン,1,0,1
+410,Punching bag,サンドバッグ,1,1,100
+411,Rabbit,うさぎ,0,0,
+412,Raccoon,ラクーン,0,0,
+413,Racket,ラケット,1,0,3
+414,Radish,大根,1,0,1
+415,Ratchet (Device),ラチェット（装置）,1,0,3
+416,Raven,レイブン,0,0,
+417,Rays and skates,光線とスケート靴,0,0,
+418,Red panda,レッサーパンダ,0,0,
+419,Refrigerator,冷蔵庫,1,1,100
+420,Remote control,リモコン,1,0,1
+421,Reptile,爬虫類,0,0,
+422,Rhinoceros,サイ,0,0,
+423,Rifle,ライフル,1,0,5
+424,Ring binder,リングバインダー,1,0,1
+425,Rocket,ロケット,0,0,
+426,Roller skates,ローラースケート,1,0,5
+427,Rose,薔薇,1,0,1
+428,Rugby ball,ラグビーボール,1,0,2
+429,Ruler,ルーラー,1,0,1
+430,Salad,サラダ,1,0,1
+431,Salt and pepper shakers,塩コショウ入れ,1,0,1
+432,Sandal,サンダル,1,0,1
+433,Sandwich,サンドイッチ,1,0,1
+434,Saucer,ソーサー,1,0,1
+435,Saxophone,サックス,1,0,5
+436,Scale,規模,1,0,1
+437,Scarf,スカーフ,1,0,1
+438,Scissors,ハサミ,1,0,1
+439,Scoreboard,スコアボード,0,0,
+440,Scorpion,スコーピオン,0,0,
+441,Screwdriver,ドライバー,1,0,1
+442,Sculpture,彫刻,1,0,10
+443,Sea lion,アシカ,0,0,
+444,Sea turtle,ウミガメ,0,0,
+445,Seafood,シーフード,1,0,1
+446,Seahorse,タツノオトシゴ,0,0,
+447,Seat belt,シートベルト,0,0,
+448,Segway,セグウェイ,0,0,
+449,Serving tray,サービングトレイ,1,0,1
+450,Sewing machine,ミシン,1,0,5
+451,Shark,サメ,0,0,
+452,Sheep,羊,0,0,
+453,Shelf,棚,1,1,100
+454,Shellfish,貝,1,0,1
+455,Shirt,シャツ,1,0,1
+456,Shorts,ショーツ,1,0,1
+457,Shotgun,ショットガン,0,0,
+458,Shower,シャワー,1,1,100
+459,Shrimp,エビ,1,0,1
+460,Sink,シンク,1,1,100
+461,Skateboard,スケートボード,1,0,5
+462,Ski,スキー,0,0,
+463,Skirt,スカート,1,0,1
+464,Skull,頭蓋骨,0,0,
+465,Skunk,スカンク,0,0,
+466,Skyscraper,超高層ビル,0,0,
+467,Slow cooker,スロークッカー,1,0,10
+468,Snack,スナック,1,0,1
+469,Snail,カタツムリ,0,0,
+470,Snake,蛇,0,0,
+471,Snowboard,スノーボード,1,0,10
+472,Snowman,雪だるま,0,0,
+473,Snowmobile,スノーモービル,0,0,
+474,Snowplow,除雪車,0,0,
+475,Soap dispenser,ソープディスペンサー,1,0,1
+476,Sock,靴下,1,0,1
+477,Sofa bed,ソファベッド,1,1,100
+478,Sombrero,ソンブレロ,1,0,1
+479,Sparrow,スズメ,0,0,
+480,Spatula,スパチュラ,1,0,1
+481,Spice rack,スパイスラック,1,0,1
+482,Spider,スパイダー,0,0,
+483,Spoon,スプーン,1,0,1
+484,Sports equipment,スポーツ用品,1,0,5
+485,Sports uniform,スポーツユニフォーム,1,0,1
+486,Squash (Plant),スカッシュ (植物),1,0,1
+487,Squid,イカ,0,0,
+488,Squirrel,リス,0,0,
+489,Stairs,階段,1,1,100
+490,Stapler,ホッチキス,1,0,1
+491,Starfish,ヒトデ,0,0,
+492,Stationary bicycle,エアロバイク,1,1,100
+493,Stethoscope,聴診器,1,0,1
+494,Stool,スツール,1,1,10
+495,Stop sign,一時停止の標識,0,0,
+496,Strawberry,いちご,1,0,1
+497,Street light,街灯,0,0,
+498,Stretcher,担架,1,0,10
+499,Studio couch,スタジオソファ,1,1,100
+500,Submarine,潜水艦,0,0,
+501,Submarine sandwich,サブマリンサンドイッチ,1,0,1
+502,Suit,スーツ,1,0,1
+503,Suitcase,スーツケース,1,0,5
+504,Sun hat,日除け帽子,1,0,1
+505,Sunglasses,サングラス,1,0,1
+506,Surfboard,サーフボード,1,0,15
+507,Sushi,寿司,1,0,1
+508,Swan,白鳥,0,0,
+509,Swim cap,スイムキャップ,1,0,1
+510,Swimming pool,スイミングプール,0,0,
+511,Swimwear,水着,1,0,1
+512,Sword,剣,0,0,
+513,Syringe,注射器,1,0,1
+514,Table,テーブル,1,1,100
+515,Table tennis racket,卓球ラケット,1,0,1
+516,Tablet computer,タブレットコンピュータ,1,0,5
+517,Tableware,食器,1,0,1
+518,Taco,タコス,1,0,1
+519,Tank,タンク,0,0,
+520,Tap,タップ,1,0,1
+521,Tart,タルト,1,0,1
+522,Taxi,タクシー,0,0,
+523,Tea,お茶,1,0,1
+524,Teapot,ティーポット,1,0,1
+525,Teddy bear,テディベア,1,0,1
+526,Telephone,電話,1,0,2
+527,Television,テレビ,1,1,10
+528,Tennis ball,テニスボール,1,0,1
+529,Tennis racket,テニスラケット,1,0,2
+530,Tent,テント,0,0,
+531,Tiara,ティアラ,1,0,1
+532,Tick,カチカチ,0,0,
+533,Tie,ネクタイ,1,0,1
+534,Tiger,虎,0,0,
+535,Tin can,ブリキ缶,1,0,1
+536,Tire,タイヤ,0,0,
+537,Toaster,トースター,1,0,5
+538,Toilet,トイレ,1,1,100
+539,Toilet paper,トイレットペーパー,1,0,1
+540,Tomato,トマト,1,0,1
+541,Tool,道具,1,0,3
+542,Toothbrush,歯ブラシ,1,0,1
+543,Torch,トーチ,1,0,1
+544,Tortoise,カメ,0,0,
+545,Towel,タオル,1,0,1
+546,Tower,タワー,0,0,
+547,Toy,玩具,1,0,1
+548,Traffic light,信号機,0,0,
+549,Traffic sign,交通標識,0,0,
+550,Train,電車,0,0,
+551,Training bench,トレーニングベンチ,1,1,100
+552,Treadmill,トレッドミル,1,1,100
+553,Tree,木,0,0,
+554,Tree house,ツリーハウス,0,0,
+555,Tripod,三脚,1,0,1
+556,Trombone,トロンボーン,1,0,5
+557,Trousers,ズボン,1,0,1
+558,Truck,トラック,0,0,
+559,Trumpet,トランペット,1,0,5
+560,Turkey,七面鳥,0,0,
+561,Turtle,カメ,0,0,
+562,Umbrella,傘,1,0,1
+563,Unicycle,一輪車,0,0,
+564,Van,バン,0,0,
+565,Vase,花瓶,1,0,2
+566,Vegetable,野菜,1,0,1
+567,Vehicle,車両,0,0,
+568,Vehicle registration plate,車両登録プレート,0,0,
+569,Violin,バイオリン,1,0,5
+570,Volleyball (Ball),バレーボール（ボール）,1,0,1
+571,Waffle,ワッフル,1,0,1
+572,Waffle iron,ワッフルアイロン,1,0,5
+573,Wall clock,壁掛け時計,1,1,1
+574,Wardrobe,ワードローブ,1,0,1
+575,Washing machine,洗濯機,1,1,100
+576,Waste container,廃棄物容器,1,1,1
+577,Watch,時計,1,0,1
+578,Watercraft,水上バイク,0,0,
+579,Watermelon,スイカ,1,0,1
+580,Weapon,武器,1,0,5
+581,Whale,鯨,0,0,
+582,Wheel,車輪,0,0,
+583,Wheelchair,車椅子,1,0,15
+584,Whisk,泡だて器,1,0,1
+585,Whiteboard,ホワイトボード,1,1,15
+586,Willow,柳,0,0,
+587,Window,ウィンドウ,1,1,10
+588,Window blind,ブラインド,1,1,10
+589,Wine,ワイン,1,0,1
+590,Wine glass,ワイングラス,1,0,1
+591,Wine rack,ワインラック,1,1,100
+592,Winter melon,冬瓜,1,0,1
+593,Wok,中華鍋,1,0,5
+594,Woman,女性,0,0,
+595,Wood-burning stove,薪ストーブ,1,1,100
+596,Woodpecker,キツツキ,0,0,
+597,Worm,ワーム,0,0,
+598,Wrench,レンチ,1,0,2
+599,Zebra,ゼブラ,0,0,
+600,Zucchini,ズッキーニ,1,0,1

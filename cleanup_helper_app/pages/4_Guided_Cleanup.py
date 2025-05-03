@@ -1,0 +1,2 @@
+from utils.session_state import initialize_session_state
+initialize_session_state(st.session_state)

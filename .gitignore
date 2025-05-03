@@ -1,1 +1,2 @@
-assets/*
+cleanup_helper_app/models/weights/*
+**/__pycache__/**
