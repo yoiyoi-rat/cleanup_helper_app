@@ -67,47 +67,47 @@ cleanup_helper_app
 ## TODO
 📦 フェーズ1：基本UIと状態構築
 ステップ	内容
-✅ 1	assets/ に画像・CSVを配置 ← 完了
-✅ 2	tests/ の雛形と最初のテストを書く ← 完了
-✅ 3	st.session_state の初期化コードを全ページに共通化 ← 完了
-✅ 4	1_Upload_Image.py：画像アップロード＆モード選択UIを完成 ← 完了
-✅ 5	テスト：アップロードとモードが正しく session_state に保存されるか確認 ← 完了
+- ✅ 1	assets/ に画像・CSVを配置 ← 完了
+- ✅ 2	tests/ の雛形と最初のテストを書く ← 完了
+- ✅ 3	st.session_state の初期化コードを全ページに共通化 ← 完了
+- ✅ 4	1_Upload_Image.py：画像アップロード＆モード選択UIを完成 ← 完了
+- ✅ 5	テスト：アップロードとモードが正しく session_state に保存されるか確認 ← 完了
 
 🔍 フェーズ2：物体検出（YOLO）関連
 ステップ	内容
-✅6	detector.py：YOLO推論関数 detect_objects(image) を実装 ← 完了
-✅7	test_detector.py：出力形式の検証テスト ← 完了
-✅8	2_Object_Detection.py：アップロード画像に対して検出し、結果を session_state に保存 ← 完了
+- ✅6	detector.py：YOLO推論関数 detect_objects(image) を実装 ← 完了
+- ✅7	test_detector.py：出力形式の検証テスト ← 完了
+- ✅8	2_Object_Detection.py：アップロード画像に対して検出し、結果を session_state に保存 ← 完了
 
 📊 フェーズ3：コストデータと最適化（量子 or 疑似）
 ステップ	内容
-✅9	cost_loader.py：load_cost_table(csv_path) 実装（今ある objects.csv を使う）
-✅10	test_cost_loader.py：名前とコストの対応テスト
-✅🔜11	optimizer.py：solve_cleanup_plan(...) の構造を決めてモックで返す
-✅12	test_optimizer.py：ダミーオブジェクトで最適化ロジックの構造チェック
+- ✅9	cost_loader.py：load_cost_table(csv_path) 実装（今ある objects.csv を使う）
+- ✅10	test_cost_loader.py：名前とコストの対応テスト
+- ✅🔜11	optimizer.py：solve_cleanup_plan(...) の構造を決めてモックで返す
+- ✅12	test_optimizer.py：ダミーオブジェクトで最適化ロジックの構造チェック
 
 🧼 フェーズ4：Streamlitによる実行とナビゲーションUI
 ステップ	内容
-✅13	3_Optimization.py：最適化を呼び出し、結果を session_state に保存
-✅14	4_Guided_Cleanup.py：順番に1つずつ片付けをガイド（BB表示つき）
-✅15	image_utils.py：draw_bboxes() 実装し、現在の物体を強調表示
-✅16	プログレスバー、完了ボタン、戻るボタンの導入
+- ✅13	3_Optimization.py：最適化を呼び出し、結果を session_state に保存
+- ✅14	4_Guided_Cleanup.py：順番に1つずつ片付けをガイド（BB表示つき）
+- ✅15	image_utils.py：draw_bboxes() 実装し、現在の物体を強調表示
+- ✅16	プログレスバー、完了ボタン、戻るボタンの導入
 
 🚀 フェーズ5：デプロイと仕上げ
 ステップ	内容
-17	UIのモバイル対応調整（layout="centered" やボタン配置など）
-18	requirements.txt、.streamlit/config.toml の整備
-19	VercelでStreamlitをデプロイ（streamlit-component-templateを使う）
-20	READMEの整備とバグ取り・改善ループ
+- 17	UIのモバイル対応調整（layout="centered" やボタン配置など）
+- 18	requirements.txt、.streamlit/config.toml の整備
+- 19	VercelでStreamlitをデプロイ（streamlit-component-templateを使う）
+- 20	READMEの整備とバグ取り・改善ループ
 
 ## object.csvの形式
 ```
-id,name,jp_name,likely_in_room_flag,furniture_flag,weight_cost
-0,Accordion,アコーディオン,1,0,3
-1,Adhesive tape,粘着テープ,1,0,1
-2,Aircraft,航空機,0,0,
+id,label,is_in_home,is_furniture,weight,label_jp
+0,Accordion,1,0,3,アコーディオン
+1,Adhesive tape,1,0,1,粘着テープ
+2,Aircraft,0,0,,航空機
+3,Airplane,0,0,,飛行機
 ```
-
 
 ## アプリの立ち上げ方
 ```
@@ -134,21 +134,13 @@ def draw_bboxes(
 
 **utils/session_state.py**
 def initialize_session_state(session_state):
-    defaults = {
+    session_stateが{
         "mode": None,
         "uploaded_image": None,
         "detected_objects": [],
         "cleanup_plan": [],
         "current_step": 0,
-    }
-    にする
-
-**utils/session_utils.py**
-def save_mode_to_session(session_state, mode):
-    session_state["mode"] = mode
-
-def save_image_to_session(session_state, image):
-    session_state["uploaded_image"] = image
+    }になる
 
 **models/cost_loader.py**
 def load_cost_table(csv_path: str) -> pd.DataFrame:

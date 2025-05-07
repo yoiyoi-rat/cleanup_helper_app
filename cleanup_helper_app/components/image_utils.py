@@ -2,10 +2,7 @@
 import cv2
 import numpy as np
 from typing import List, Dict, Optional
-
-import cv2
-import numpy as np
-from typing import List, Dict, Optional
+from PIL import Image
 
 
 def draw_bboxes(
@@ -43,23 +40,30 @@ def draw_bboxes(
     return image
 
 
-# def draw_bboxes(
-    # image: np.ndarray,
-    # objects: List[Dict],
-    # current_index: Optional[int] = None
-# ) -> np.ndarray:
-    # for idx, obj in enumerate(objects):
-        # x1, y1, x2, y2 = obj["bbox"]
-        # label = obj["label"]
+# def resize_image_by_short_side(image: np.ndarray, short_side=640) -> np.ndarray:
+    # height, width = image.shape[:2]
+    # if min(height, width) == short_side:
+        # return image  # すでに希望のサイズ
 
-        # if idx == current_index:
-            # color = (0, 0, 255)  # 赤でハイライト
-            # thickness = 3
-        # else:
-            # color = (0, 255, 0)  # 通常は緑
-            # thickness = 1
+    # # 縮小スケールを計算（短辺基準）
+    # scale = short_side / min(height, width)
+    # new_width = int(width * scale)
+    # new_height = int(height * scale)
+    # resized = cv2.resize(image, (new_width, new_height))
+    # return resized
 
-        # cv2.rectangle(image, (x1, y1), (x2, y2), color, thickness)
-        # cv2.putText(image, label, (x1, y1 - 10),
-                    # cv2.FONT_HERSHEY_SIMPLEX, 0.6, color, 2)
-    # return image
+
+def resize_image_by_short_side(image: Image.Image, short_side=640) -> Image.Image:
+    width, height = image.size  # PILは (幅, 高さ)
+    
+    if min(height, width) == short_side:
+        return image  # すでに希望のサイズ
+    
+    # スケール計算（短辺基準）
+    scale = short_side / min(height, width)
+    new_width = int(width * scale)
+    new_height = int(height * scale)
+    
+    # LANCZOSを使ってリサイズ
+    resized = image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+    return resized

@@ -1,2 +1,3 @@
 cleanup_helper_app/models/weights/*
 **/__pycache__/**
+.env
